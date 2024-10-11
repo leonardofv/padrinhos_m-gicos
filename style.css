@@ -56,7 +56,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 70px;
   margin: 40px 0 0 0;
 }
 .firstSection .episodios {
@@ -77,7 +77,7 @@ body {
 .secondSection {
   display: flex;
   justify-content: space-between;
-  padding: 0 40px;
+  padding: 0 70px;
 }
 .secondSection article {
   width: 22vw;
@@ -88,12 +88,12 @@ body {
 }
 .secondSection article h3 {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: bold;
   color: white;
 }
 .secondSection article p {
   margin-top: 14px;
-  font-size: 10px;
+  font-size: 14px;
   color: white;
 }
 
