@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    // border: 2px solid red;
+    height: 24.6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    padding: 0 40px;
+    img {
+        width: 15.3vw;
+        height: 14.2vh;
+    }
+    .botoesHeader {
+        // border: 2px solid green;
+        display: flex;
+        gap: 20px;
+        
+        .botaoAcessar {
+            background-color: #DF0712;
+            color: #fff;
+            width: 10.8vw;
+            height: 6vh;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+        .botaoEntrar {
+            background-color: transparent;
+            color: #fff;
+            width: 10.8vw;
+            height: 6vh;
+            border-radius: 8px;
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #181818fa;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin: 40px 0 0 0;
+    .episodios {
+        width: 30vw;
+        h2 {
+            color: white;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+        }
+    }
+    .imagem img {
+        width: 7vw;
+    }
+}
+
+.secondSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    article {
+        // border: 2px solid white;
+        width: 22vw;
+        margin: 1rem 0;
+        img {
+            width: 22vw;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 200;
+            color: white;
+        }
+        p {
+            margin-top: 14px;
+            font-size: 10px;
+            color: white;
+        }
+    }
+}
+
+.rodape {
+    height: 14vh;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #111111;
+    padding: 0 40px;
+    margin-top: 60px;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}

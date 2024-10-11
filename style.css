@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  height: 24.6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111111;
+  padding: 0 40px;
+}
+header img {
+  width: 15.3vw;
+  height: 14.2vh;
+}
+header .botoesHeader {
+  display: flex;
+  gap: 20px;
+}
+header .botoesHeader .botaoAcessar {
+  background-color: #DF0712;
+  color: #fff;
+  width: 10.8vw;
+  height: 6vh;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+header .botoesHeader .botaoEntrar {
+  background-color: transparent;
+  color: #fff;
+  width: 10.8vw;
+  height: 6vh;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(24, 24, 24, 0.9803921569);
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin: 40px 0 0 0;
+}
+.firstSection .episodios {
+  width: 30vw;
+}
+.firstSection .episodios h2 {
+  color: white;
+}
+.firstSection .episodios p {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.firstSection .imagem img {
+  width: 7vw;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.secondSection article {
+  width: 22vw;
+  margin: 1rem 0;
+}
+.secondSection article img {
+  width: 22vw;
+}
+.secondSection article h3 {
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+}
+.secondSection article p {
+  margin-top: 14px;
+  font-size: 10px;
+  color: white;
+}
+
+.rodape {
+  height: 14vh;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  background-color: #111111;
+  padding: 0 40px;
+  margin-top: 60px;
+}
+.rodape a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
