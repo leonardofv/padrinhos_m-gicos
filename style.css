@@ -30,6 +30,7 @@ header .botoesHeader .botaoAcessar {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 header .botoesHeader .botaoEntrar {
   background-color: transparent;
@@ -39,6 +40,10 @@ header .botoesHeader .botaoEntrar {
   border-radius: 8px;
   border: 1px solid #fff;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+header .botoesHeader button:hover {
+  transform: scale(1.1);
 }
 
 body {

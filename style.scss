@@ -8,7 +8,6 @@
 }
 
 header {
-    // border: 2px solid red;
     height: 24.6vh;
     display: flex;
     justify-content: space-between;
@@ -20,10 +19,8 @@ header {
         height: 14.2vh;
     }
     .botoesHeader {
-        // border: 2px solid green;
         display: flex;
         gap: 20px;
-        
         .botaoAcessar {
             background-color: #DF0712;
             color: #fff;
@@ -32,6 +29,7 @@ header {
             border-radius: 8px;
             border: none;
             cursor: pointer;
+            transition: transform 0.3s 
         }
         .botaoEntrar {
             background-color: transparent;
@@ -41,6 +39,10 @@ header {
             border-radius: 8px;
             border: 1px solid #fff;
             cursor: pointer;
+            transition: transform 0.3s 
+        }
+        button:hover {
+            transform: scale(1.1)
         }
     }
 }
@@ -78,7 +80,6 @@ body {
     justify-content: space-between;
     padding: 0 40px;
     article {
-        // border: 2px solid white;
         width: 22vw;
         margin: 1rem 0;
         img {
