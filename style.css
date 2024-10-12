@@ -64,9 +64,10 @@ body {
 }
 .firstSection .episodios h2 {
   color: white;
+  font-size: 2.5rem;
 }
 .firstSection .episodios p {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
   color: white;
 }
@@ -80,16 +81,22 @@ body {
   padding: 0 70px;
 }
 .secondSection article {
-  width: 22vw;
+  width: 20vw;
   margin: 1rem 0;
 }
 .secondSection article img {
-  width: 22vw;
+  width: 20vw;
+  transition: transform 0.3s ease-in-out;
+}
+.secondSection article img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px white;
 }
 .secondSection article h3 {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  padding-top: 5px;
 }
 .secondSection article p {
   margin-top: 14px;
